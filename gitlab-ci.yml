@@ -1,0 +1,84 @@
+stages:
+  - pre-cleanup
+  - load
+  - build
+  - test
+  - show_log_on_failure
+  - artifact
+  - cleanup
+
+pre-cleanup:
+  stage: pre-cleanup
+  script:
+    - docker rm -vf influxdb_local || true
+    - docker rm -vf influxdb_remote || true
+    - docker rm -vf telegraf || true
+    - docker rm -vf influx_gateway || true
+  when: always
+
+load_local:
+  stage: load
+  before_script:
+    - export PATH=$PATH:/usr/bin
+  script:
+    - docker rm -vf influxdb_local || true
+    - docker run -d  --name influxdb_local -v "$PWD/config/influxdb_local/:/etc/influxdb/" influxdb:latest
+
+load_remote:
+  stage: load
+  script:
+    - docker rm -vf influxdb_remote || true
+    - docker run -d --name influxdb_remote -v "$PWD/config/influxdb_local/:/etc/influxdb/" influxdb:latest
+
+load_telegraf:
+  stage: load
+  script:
+    - docker rm -vf telegraf || true
+    - docker run  -d --name telegraf -v "$PWD/config/telegraf/:/etc/telegraf/" --link influxdb_remote:influxdb_remote telegraf:latest
+
+build_gateway:
+  stage: build
+  script:
+    - docker build -t influx_gateway .
+
+test_gateway:
+  stage: test
+  retry: 1
+  script:
+    - docker rm -vf influx_gateway || true
+    - sleep 3
+    - docker run  --name influx_gateway --link influxdb_local:influxdb_local --link influxdb_remote:influxdb_remote influx_gateway
+
+show_log:
+  stage: show_log_on_failure
+  script:
+    - echo "Influx_gateway_log"
+    - docker logs influx_gateway
+  when: on_failure
+
+build_artifact:
+  stage: artifact
+  script:
+    - mkdir -p artifact
+    - docker cp influx_gateway:/influx_gateway/influx_gw.py artifact/
+    - docker cp influx_gateway:/influx_gateway/tasks.py artifact/
+    - docker cp influx_gateway:/influx_gateway/example/config.json artifact/
+    - docker cp influx_gateway:/influx_gateway/README.md artifact/
+    - docker cp influx_gateway:/influx_gateway/requirements.txt artifact/
+    - tar -cvf influx_gateway.tar -C artifact .
+  artifacts:
+    paths:
+      - influx_gateway.tar
+  only:
+    - master
+    - developer
+
+cleanup:
+  stage: cleanup
+  script:
+    - docker rm -vf influxdb_local || true
+    - docker rm -vf influxdb_remote || true
+    - docker rm -vf telegraf || true
+    - docker rm -vf influx_gateway || true
+    - rm -rf artifact
+  when: always
