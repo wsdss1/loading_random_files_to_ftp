@@ -1,0 +1,52 @@
+c738c73f-f697-442b-9cb1-a7e2eeb3f7b6  - - OK
+
+file d8c5798e-6a6a-44d1-8704-23bcbbbbbdef create -> file on ftp -> info in DB
+
+file f0818247-8691-43d1-90ba-258f7e48d5cc create -> file on ftp -> info in DB
+
+file 372cdd59-91c6-4cb3-9808-8d708cf6d7d2 create -> file on ftp -> info in DB
+
+file 9681757c-bfc1-4416-ad60-2907981d2ce3 create -> file on ftp -> info in DB
+
+file c22f9541-bbb6-482f-a77f-0397601983b1 create -> file on ftp -> info in DB
+
+file 3b1ffbab-fa6a-477e-8b36-0619a08685cf create -> file on ftp -> info in DB
+
+file 9af95074-2b9f-400a-9810-eea802534dcc create -> file on ftp -> info in DB
+
+file c755fba4-6a6c-4860-b89f-29a48dd79d07 create -> file on ftp -> info in DB
+
+file 13b473e4-9905-42c0-8a17-fd2e385aa31c create -> file on ftp -> info in DB
+
+file e4a8bc7e-0119-4b0a-a158-9d00b250aaf1 create -> file on ftp -> info in DB
+
+file e2f3606a-b3e7-491b-86d8-e3d340275690 create -> file on ftp -> info in DB
+
+file 5cda2ae9-f1c5-44a5-858a-2de56e790f1f create -> file on ftp -> info in DB
+
+file 2a07cc09-1209-451d-b945-df88d547bf90 create -> file on ftp -> info in DB
+
+file a474b765-8a91-403d-aa0a-263720c56b4b create -> file on ftp -> info in DB
+
+file 66cbf985-919d-4290-a64f-4f99c0407c85 create -> file on ftp -> info in DB
+
+file bfd9613a-03c9-4c8a-9469-c6e734275eaa create -> file on ftp -> info in DB
+
+file 34552b94-68c8-4f32-a95f-ca903c3a24d6 create -> file on ftp -> info in DB
+
+file b6ba4cd4-18bd-4e08-be83-58bfa6eae672 create -> file on ftp -> info in DB
+
+file 79f5d57c-4c6c-4e3a-9198-96afd28906db create -> file on ftp -> info in DB
+
+file 15e7bbc4-775c-40b2-bf0c-7509c3cfcf16 create -> file on ftp -> info in DB
+
+file 66ac766f-79cd-4211-b980-66eb861a0ee9 create -> file on ftp -> info in DB
+
+file e57390ed-5cc2-4b09-8df5-a9a91eb36dea create -> file on ftp -> info in DB
+
+file 0bed58f9-5a78-4394-ba8c-b1812d6ed8c1 create -> file on ftp -> info in DB
+
+file 855cb680-ed13-4657-9818-c36bd05e10de create -> file on ftp -> info in DB
+
+file a3d98035-187c-48f1-a862-92342600bd53 create -> file on ftp -> info in DB
+
