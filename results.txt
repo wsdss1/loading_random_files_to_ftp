@@ -50,3 +50,5 @@ file 855cb680-ed13-4657-9818-c36bd05e10de create -> file on ftp -> info in DB
 
 file a3d98035-187c-48f1-a862-92342600bd53 create -> file on ftp -> info in DB
 
+file [] create -> file on ftp -> info in DB
+
