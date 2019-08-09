@@ -11,10 +11,13 @@ import os, logging, logging.config, time, shutil, random, uuid, sys, pyodbc, dat
 from ftplib import FTP
 
 HOST = "192.168.10.13"
+PS = "12345"
 PORT = 21
 UNAME = "ftpuser"
-PS = "12345"
+
+
 ftp = FTP('192.168.10.13', 'ftpuser', '12345')
+
 SQL_SERVER_CONNECT = "Driver={SQL Server Native Client 11.0};Server=192.168.10.24;Database=SSNTI;Trusted_Connection=no;uid=test;pwd=Password12!"
 
 FTP_PATH = ['/home/ftpuser/','/home/ftpuser/test_ras','/home/ftpuser/test_ras_zip']
@@ -68,7 +71,7 @@ def rnd_file_create():
         for i in arr:
             full_filename = f'{current_dir}/temp_folder/{filename}.{i}'
             newfile = open(full_filename, 'wb')
-            size = random.randint(100000, 9999999) # in bytes
+            size = random.randint(10000, 999999) # in bytes
             newfile.seek(size)
             newfile.write(b'\0')
             logger.info(f'{sys._getframe().f_code.co_name}  {full_filename}  size= {size} bytes')
@@ -127,12 +130,12 @@ def sql_connect_select(file_names):
             rows_count = cursor.execute(query_sql)
             if cursor.rowcount == 0:
                 logger.info(f'{sys._getframe().f_code.co_name}  wait information from SQL in table about this {file_name} file')
-                print(f'{file_name} wait information from SQL in table about this {file_name} file \n')
             else:
                 logger.info(f'{sys._getframe().f_code.co_name}  file {file_name} in Data Base.  OK!')
                 file_names.remove(file_name)
-        print(f' wait 1 minute \n')
-    print('all files in the DB')
+        logger.info(f'{sys._getframe().f_code.co_name}  wait one minute ')
+    logger.info(f'{sys._getframe().f_code.co_name}  all files in the DB')
+    print('all files in DB')
 
 # create file result
 def file_result(message: str):
@@ -144,4 +147,4 @@ if __name__ == '__main__':
     created_file = rnd_file_create()
     read_local_dir()
     sql_connect_select(created_file)   
-    file_result(f'{datetime.now()} file {created_file} create -> file on ftp -> info in DB\n')
+    #file_result(f'{datetime.now()} file {created_file} create -> file on ftp -> info in DB\n')
