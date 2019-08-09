@@ -9,7 +9,7 @@ import log
 from ftplib import FTP
 
 def upload_ftp(file: str, ftp_path: str):
-    ftp = FTP('192.168.10.13', 'ftpuser', '12345')
+    ftp = FTP('192.168.10.13', 'ftpuser', '!234Qwert')
     ftp.connect(HOST, PORT)
     ftp.login(UNAME, PS)
     # Перейти в директорию

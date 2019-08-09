@@ -168,3 +168,193 @@
 2019-08-09 19:20:43,162  [PID 16212]  create_dir_and_files  [INFO]  directory temp_folder already exist
 2019-08-09 19:20:43,167  [PID 16212]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/fc3479bd-8442-4938-9b37-5708a0e8510d.os1.zip
 2019-08-09 19:20:43,172  [PID 16212]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/fc3479bd-8442-4938-9b37-5708a0e8510d.os2.zip
+2019-08-09 20:30:49,575  [PID 2848]  read_config_and_dir  [INFO]  read and load conf file ./config/config.json
+2019-08-09 20:30:49,575  [PID 2848]  load_to_ftp_random_files_new  [INFO]  received groups ending_files
+2019-08-09 20:31:54,697  [PID 4888]  read_config_and_dir  [INFO]  read and load conf file ./config/config.json
+2019-08-09 20:31:54,697  [PID 4888]  load_to_ftp_random_files_new  [INFO]  received groups ending_files
+2019-08-09 20:31:59,035  [PID 9468]  read_config_and_dir  [INFO]  read and load conf file ./config/config.json
+2019-08-09 20:31:59,035  [PID 9468]  load_to_ftp_random_files_new  [INFO]  received groups ending_files
+2019-08-09 20:32:12,046  [PID 10576]  read_config_and_dir  [INFO]  read and load conf file ./config/config.json
+2019-08-09 20:32:12,046  [PID 10576]  load_to_ftp_random_files_new  [INFO]  received groups ending_files
+2019-08-09 20:32:12,046  [PID 10576]  create_dir_and_files  [INFO]  generate random file name 9a9b80b2-3f1c-4817-b114-be719f75e251
+2019-08-09 20:32:12,046  [PID 10576]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:32:12,051  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.to
+2019-08-09 20:32:12,081  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t01
+2019-08-09 20:32:12,085  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t02
+2019-08-09 20:32:12,090  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t03
+2019-08-09 20:32:12,095  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t04
+2019-08-09 20:32:12,100  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t05
+2019-08-09 20:32:12,105  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t06
+2019-08-09 20:32:12,109  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t07
+2019-08-09 20:32:12,114  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t08
+2019-08-09 20:32:12,120  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t09
+2019-08-09 20:32:12,125  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t0A
+2019-08-09 20:32:12,130  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t0B
+2019-08-09 20:32:12,134  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t0C
+2019-08-09 20:32:12,139  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t0D
+2019-08-09 20:32:12,143  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t0E
+2019-08-09 20:32:12,148  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/9a9b80b2-3f1c-4817-b114-be719f75e251.t0F
+2019-08-09 20:32:12,149  [PID 10576]  create_dir_and_files  [INFO]  generate random file name 7c6e2200-6b39-4390-ad50-5c1633039a7b
+2019-08-09 20:32:12,149  [PID 10576]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:32:12,154  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.do
+2019-08-09 20:32:12,158  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d01
+2019-08-09 20:32:12,163  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d02
+2019-08-09 20:32:12,168  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d03
+2019-08-09 20:32:12,174  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d04
+2019-08-09 20:32:12,179  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d05
+2019-08-09 20:32:12,184  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d06
+2019-08-09 20:32:12,188  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d07
+2019-08-09 20:32:12,193  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d08
+2019-08-09 20:32:12,198  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d09
+2019-08-09 20:32:12,203  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d0A
+2019-08-09 20:32:12,208  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d0B
+2019-08-09 20:32:12,213  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d0C
+2019-08-09 20:32:12,218  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d0D
+2019-08-09 20:32:12,223  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d0E
+2019-08-09 20:32:12,227  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/7c6e2200-6b39-4390-ad50-5c1633039a7b.d0F
+2019-08-09 20:32:12,227  [PID 10576]  create_dir_and_files  [INFO]  generate random file name b5915c18-bdcc-4f1b-b6d2-19f68cd78704
+2019-08-09 20:32:12,227  [PID 10576]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:32:12,241  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/b5915c18-bdcc-4f1b-b6d2-19f68cd78704.zip
+2019-08-09 20:32:12,241  [PID 10576]  create_dir_and_files  [INFO]  generate random file name c9e2be58-1b91-43e1-9351-018a128531d6
+2019-08-09 20:32:12,241  [PID 10576]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:32:12,246  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/c9e2be58-1b91-43e1-9351-018a128531d6.os1.zip
+2019-08-09 20:32:12,251  [PID 10576]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/c9e2be58-1b91-43e1-9351-018a128531d6.os2.zip
+2019-08-09 20:37:28,510  [PID 15812]  read_config_and_dir  [INFO]  read and load conf file ./config/config.json
+2019-08-09 20:37:28,510  [PID 15812]  load_to_ftp_random_files_new  [INFO]  received groups ending_files and list of ftp
+2019-08-09 20:37:28,510  [PID 15812]  create_dir_and_files  [INFO]  generate random file name 40785c2c-b781-4989-96da-e4ff334f4d34
+2019-08-09 20:37:28,510  [PID 15812]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:37:28,515  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.to
+2019-08-09 20:37:28,519  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t01
+2019-08-09 20:37:28,523  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t02
+2019-08-09 20:37:28,528  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t03
+2019-08-09 20:37:28,533  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t04
+2019-08-09 20:37:28,537  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t05
+2019-08-09 20:37:28,542  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t06
+2019-08-09 20:37:28,547  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t07
+2019-08-09 20:37:28,550  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t08
+2019-08-09 20:37:28,555  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t09
+2019-08-09 20:37:28,560  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t0A
+2019-08-09 20:37:28,564  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t0B
+2019-08-09 20:37:28,569  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t0C
+2019-08-09 20:37:28,573  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t0D
+2019-08-09 20:37:28,579  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t0E
+2019-08-09 20:37:28,584  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/40785c2c-b781-4989-96da-e4ff334f4d34.t0F
+2019-08-09 20:37:28,584  [PID 15812]  create_dir_and_files  [INFO]  generate random file name 47116070-0452-443b-9b46-b5f2bac789d3
+2019-08-09 20:37:28,584  [PID 15812]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:37:28,590  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.do
+2019-08-09 20:37:28,596  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d01
+2019-08-09 20:37:28,601  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d02
+2019-08-09 20:37:28,605  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d03
+2019-08-09 20:37:28,610  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d04
+2019-08-09 20:37:28,615  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d05
+2019-08-09 20:37:28,620  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d06
+2019-08-09 20:37:28,625  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d07
+2019-08-09 20:37:28,630  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d08
+2019-08-09 20:37:28,634  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d09
+2019-08-09 20:37:28,638  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d0A
+2019-08-09 20:37:28,643  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d0B
+2019-08-09 20:37:28,648  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d0C
+2019-08-09 20:37:28,652  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d0D
+2019-08-09 20:37:28,657  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d0E
+2019-08-09 20:37:28,662  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/47116070-0452-443b-9b46-b5f2bac789d3.d0F
+2019-08-09 20:37:28,662  [PID 15812]  create_dir_and_files  [INFO]  generate random file name 0ae99bd7-0e23-41ba-ba2d-4a0f834f1d0a
+2019-08-09 20:37:28,662  [PID 15812]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:37:28,667  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/0ae99bd7-0e23-41ba-ba2d-4a0f834f1d0a.zip
+2019-08-09 20:37:28,667  [PID 15812]  create_dir_and_files  [INFO]  generate random file name aba94782-5bbc-48b4-804d-6b371175024d
+2019-08-09 20:37:28,667  [PID 15812]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:37:28,672  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/aba94782-5bbc-48b4-804d-6b371175024d.os1.zip
+2019-08-09 20:37:28,679  [PID 15812]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/aba94782-5bbc-48b4-804d-6b371175024d.os2.zip
+2019-08-09 20:39:44,198  [PID 8152]  read_config_and_dir  [INFO]  read and load conf file ./config/config.json
+2019-08-09 20:39:44,198  [PID 8152]  load_to_ftp_random_files_new  [INFO]  received groups ending_files and list of ftp
+2019-08-09 20:39:44,198  [PID 8152]  create_dir_and_files  [INFO]  generate random file name 633f9ddc-1ae8-49be-bddc-6735b3071dca
+2019-08-09 20:39:44,199  [PID 8152]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:39:44,203  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.to
+2019-08-09 20:39:44,208  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t01
+2019-08-09 20:39:44,212  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t02
+2019-08-09 20:39:44,217  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t03
+2019-08-09 20:39:44,222  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t04
+2019-08-09 20:39:44,226  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t05
+2019-08-09 20:39:44,230  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t06
+2019-08-09 20:39:44,235  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t07
+2019-08-09 20:39:44,240  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t08
+2019-08-09 20:39:44,245  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t09
+2019-08-09 20:39:44,249  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t0A
+2019-08-09 20:39:44,254  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t0B
+2019-08-09 20:39:44,259  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t0C
+2019-08-09 20:39:44,264  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t0D
+2019-08-09 20:39:44,269  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t0E
+2019-08-09 20:39:44,274  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/633f9ddc-1ae8-49be-bddc-6735b3071dca.t0F
+2019-08-09 20:39:44,274  [PID 8152]  create_dir_and_files  [INFO]  generate random file name 6f28405d-3cab-432d-bc24-380e98af783b
+2019-08-09 20:39:44,274  [PID 8152]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:39:44,279  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.do
+2019-08-09 20:39:44,283  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d01
+2019-08-09 20:39:44,288  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d02
+2019-08-09 20:39:44,293  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d03
+2019-08-09 20:39:44,298  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d04
+2019-08-09 20:39:44,302  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d05
+2019-08-09 20:39:44,308  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d06
+2019-08-09 20:39:44,313  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d07
+2019-08-09 20:39:44,317  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d08
+2019-08-09 20:39:44,323  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d09
+2019-08-09 20:39:44,327  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d0A
+2019-08-09 20:39:44,332  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d0B
+2019-08-09 20:39:44,337  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d0C
+2019-08-09 20:39:44,352  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d0D
+2019-08-09 20:39:44,358  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d0E
+2019-08-09 20:39:44,363  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/6f28405d-3cab-432d-bc24-380e98af783b.d0F
+2019-08-09 20:39:44,363  [PID 8152]  create_dir_and_files  [INFO]  generate random file name d1435ea2-529d-408b-b8e8-34ccdcecfe4a
+2019-08-09 20:39:44,363  [PID 8152]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:39:44,368  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/d1435ea2-529d-408b-b8e8-34ccdcecfe4a.zip
+2019-08-09 20:39:44,368  [PID 8152]  create_dir_and_files  [INFO]  generate random file name 689903fb-21b6-459f-a8a4-483ea704097c
+2019-08-09 20:39:44,368  [PID 8152]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:39:44,374  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/689903fb-21b6-459f-a8a4-483ea704097c.os1.zip
+2019-08-09 20:39:44,379  [PID 8152]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/689903fb-21b6-459f-a8a4-483ea704097c.os2.zip
+2019-08-09 20:41:21,077  [PID 2060]  read_config_and_dir  [INFO]  read and load conf file ./config/config.json
+2019-08-09 20:41:21,078  [PID 2060]  load_to_ftp_random_files_new  [INFO]  received groups ending_files
+2019-08-09 20:41:49,209  [PID 10092]  read_config_and_dir  [INFO]  read and load conf file ./config/config.json
+2019-08-09 20:41:49,209  [PID 10092]  load_to_ftp_random_files_new  [INFO]  received groups ending_files
+2019-08-09 20:43:15,319  [PID 9036]  read_config_and_dir  [INFO]  read and load conf file ./config/config.json
+2019-08-09 20:43:15,319  [PID 9036]  load_to_ftp_random_files_new  [INFO]  received groups ending_files
+2019-08-09 20:43:15,319  [PID 9036]  create_dir_and_files  [INFO]  generate random file name a0b59fd2-603e-4022-bdb7-633f3fb4ae7f
+2019-08-09 20:43:15,319  [PID 9036]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:43:15,324  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.to
+2019-08-09 20:43:15,329  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t01
+2019-08-09 20:43:15,334  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t02
+2019-08-09 20:43:15,338  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t03
+2019-08-09 20:43:15,343  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t04
+2019-08-09 20:43:15,348  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t05
+2019-08-09 20:43:15,354  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t06
+2019-08-09 20:43:15,358  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t07
+2019-08-09 20:43:15,362  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t08
+2019-08-09 20:43:15,367  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t09
+2019-08-09 20:43:15,372  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t0A
+2019-08-09 20:43:15,376  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t0B
+2019-08-09 20:43:15,381  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t0C
+2019-08-09 20:43:15,386  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t0D
+2019-08-09 20:43:15,391  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t0E
+2019-08-09 20:43:15,397  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a0b59fd2-603e-4022-bdb7-633f3fb4ae7f.t0F
+2019-08-09 20:43:15,398  [PID 9036]  create_dir_and_files  [INFO]  generate random file name 4c6fdf65-99ea-4cf9-9538-00038db59842
+2019-08-09 20:43:15,398  [PID 9036]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:43:15,403  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.do
+2019-08-09 20:43:15,407  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d01
+2019-08-09 20:43:15,412  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d02
+2019-08-09 20:43:15,417  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d03
+2019-08-09 20:43:15,422  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d04
+2019-08-09 20:43:15,427  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d05
+2019-08-09 20:43:15,430  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d06
+2019-08-09 20:43:15,436  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d07
+2019-08-09 20:43:15,441  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d08
+2019-08-09 20:43:15,446  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d09
+2019-08-09 20:43:15,451  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d0A
+2019-08-09 20:43:15,456  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d0B
+2019-08-09 20:43:15,461  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d0C
+2019-08-09 20:43:15,466  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d0D
+2019-08-09 20:43:15,471  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d0E
+2019-08-09 20:43:15,476  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/4c6fdf65-99ea-4cf9-9538-00038db59842.d0F
+2019-08-09 20:43:15,476  [PID 9036]  create_dir_and_files  [INFO]  generate random file name 3d13279a-9a74-45f6-aaee-7f014bd24dd2
+2019-08-09 20:43:15,476  [PID 9036]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:43:15,483  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/3d13279a-9a74-45f6-aaee-7f014bd24dd2.zip
+2019-08-09 20:43:15,483  [PID 9036]  create_dir_and_files  [INFO]  generate random file name a5810cb8-dbbd-418b-8543-df27032b89d5
+2019-08-09 20:43:15,483  [PID 9036]  create_dir_and_files  [INFO]  directory temp_folder already exist
+2019-08-09 20:43:15,488  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a5810cb8-dbbd-418b-8543-df27032b89d5.os1.zip
+2019-08-09 20:43:15,493  [PID 9036]  create_dir_and_files  [INFO]  created random files G:\_work\_program\_home_work\loading_random_files_to_ftp/temp_folder/a5810cb8-dbbd-418b-8543-df27032b89d5.os2.zip

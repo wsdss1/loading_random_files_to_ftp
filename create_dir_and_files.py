@@ -19,7 +19,7 @@ def create_dir(creating_directory: str):
         log.logger.info(f"directory {creating_directory} already exist")
 
 # create random file
-def rnd_file_create(current_dir, arr_ending, ftp_config):
+def rnd_file_create(current_dir, arr_ending):
     # generate a random UUID
     filename = f'{uuid.uuid4()}'
     log.logger.info(f"generate random file name {filename}")
