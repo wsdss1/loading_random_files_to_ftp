@@ -22,11 +22,15 @@ def file_result(message: str):
 if __name__ == '__main__':
     all_arr_rnd_file_names = []
     configuration = read_config_and_dir.read_config_file(conf_path_file)
- #   ending_files = configuration["ending_files"]
     log.logger.info(f'received groups ending_files')
- #   for host in configuration["ftp_hosts"]["linux_ftps"]["hosts"]:
-
-    for key in configuration["ending_files"]:
-        new_file_name = create_dir_and_files.rnd_file_create(current_dir, configuration["ending_files"][key])
-        all_arr_rnd_file_names.append(new_file_name)
+    # read from config file - ftp_host, ip_addr, port, user_name, password
+    for ftp_host in configuration["ftp_hosts"]:
+        for ip_addr in configuration["ftp_hosts"][f"{ftp_host}"]["ip_addrs"]:
+            for port in configuration["ftp_hosts"][f"{ftp_host}"]["ports"]:
+                log.logger.info(f'received from config file - ftp_host, ip_addr, port, user_name, password')
+                # read arr ending files from config file
+                for key in configuration["ending_files"]:
+                    new_file_name = create_dir_and_files.rnd_file_create(current_dir, configuration["ending_files"][key])
+                    # get all new file names
+                    all_arr_rnd_file_names.append(new_file_name)
     print(all_arr_rnd_file_names)

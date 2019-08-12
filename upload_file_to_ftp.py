@@ -6,14 +6,15 @@ upload file on ftp
 '''
 
 import log
-from ftplib import FTP
 
-def upload_ftp(file: str, ftp_path: str):
-    ftp = FTP('192.168.10.13', 'ftpuser', '!234Qwert')
-    ftp.connect(HOST, PORT)
-    ftp.login(UNAME, PS)
-    # Перейти в директорию
-    ftp.cwd(ftp_path)
-    myfile = open(f'{current_dir}/temp_folder/{file}', 'rb')
-    ftp.storbinary(f'STOR {file}', myfile)
+def upload_ftp(ip_addr, port, user_name, password, work_ftp_path, file_name):
+    log.logger.info(f"try connect to ftp {ip_addr}:{port}")
+    ftp = FTP(f'{ip_addr}', f'{user_name}', f'{password}')
+    ftp.connect(ip_addr, port)
+
+    ftp.login(user_name, password)
+    # Change Workind Directory
+    ftp.cwd(work_ftp_path)
+    # myfile = open(f'{current_dir}/temp_folder/{file}', 'rb')
+    ftp.storbinary(f'STOR {file_name}', myfile)
     myfile.close()
