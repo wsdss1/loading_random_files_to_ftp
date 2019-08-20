@@ -8,7 +8,7 @@ upload file on ftp
 import log
 
 def upload_ftp(ip_addr, port, user_name, password, work_ftp_path, file_name):
-    log.logger.info(f"try connect to ftp {ip_addr}:{port}")
+    log.logger.info(f'try connect to ftp {ip_addr}:{port}')
     ftp = FTP(f'{ip_addr}', f'{user_name}', f'{password}')
     ftp.connect(ip_addr, port)
 
