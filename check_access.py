@@ -20,6 +20,3 @@ def check_access(ip, port):
         return False
     finally:
         s.close()
-
-if __name__ == '__main__':
-    check_access('192.168.10.28', 2001)

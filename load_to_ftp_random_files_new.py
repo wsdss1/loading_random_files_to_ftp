@@ -27,10 +27,13 @@ if __name__ == '__main__':
     for ftp_host in configuration['ftp_hosts']:
         for ip_addr in configuration['ftp_hosts'][f'{ftp_host}']['ip_addrs']:
             for port in configuration['ftp_hosts'][f'{ftp_host}']['ports']:
-                log.logger.info(f'received from config file - ftp_host, ip_addr, port, user_name, password')
-                # read arr ending files from config file
-                for key in configuration['ending_files']:
-                    new_file_name = create_dir_and_files.rnd_file_create(current_dir, configuration['ending_files'][key])
-                    # get all new file names
-                    all_arr_rnd_file_names.append(new_file_name)
+                if check_access(ip_addr, port) == True:
+                    log.logger.info(f'received from config file - ftp_host {ftp_host}, ip_addr {ip_addr}, port {port}, user_name, password')
+                    # read arr ending files from config file
+                    for key in configuration['ending_files']:
+                        new_file_name = create_dir_and_files.rnd_file_create(current_dir, configuration['ending_files'][key])
+                        # get all new file names
+                        all_arr_rnd_file_names.append(new_file_name)
+                else:
+                    print(f'FTP cервер {ip_addr}:{port} в данный момент не доступен')
     print(all_arr_rnd_file_names)
