@@ -8,7 +8,7 @@ check in DB messages about this files and write info to file result.
 '''
 
 import os
-import read_config_and_dir, create_dir_and_files, sql, log
+import read_config_and_dir, create_dir_and_files, sql, log, check_access
 
 conf_path_file = './config/config.json'
 current_dir = os.path.dirname(os.path.realpath(__file__))
@@ -27,11 +27,15 @@ if __name__ == '__main__':
     for ftp_host in configuration['ftp_hosts']:
         for ip_addr in configuration['ftp_hosts'][f'{ftp_host}']['ip_addrs']:
             for port in configuration['ftp_hosts'][f'{ftp_host}']['ports']:
-                if check_access(ip_addr, port) == True:
-                    log.logger.info(f'received from config file - ftp_host {ftp_host}, ip_addr {ip_addr}, port {port}, user_name, password')
+                if check_access.check_access(ip_addr, port) == True:
+                    user_name = configuration["ftp_hosts"][f"{ftp_host}"]["user_name"]
+                    password = configuration["ftp_hosts"][f"{ftp_host}"]["password"]
+                    log.logger.info(f'received from config file - ftp_host {ftp_host}, ip_addr {ip_addr}, port {port}, /'
+                                    f'user_name {user_name}, password {password}')
                     # read arr ending files from config file
                     for key in configuration['ending_files']:
-                        new_file_name = create_dir_and_files.rnd_file_create(current_dir, configuration['ending_files'][key])
+                        log.logger.info(f'{key}')
+                        new_file_name = create_dir_and_files.rnd_file_create(current_dir, configuration['ending_files'][f'{key}'], ip_addr, port, user_name, password)
                         # get all new file names
                         all_arr_rnd_file_names.append(new_file_name)
                 else:

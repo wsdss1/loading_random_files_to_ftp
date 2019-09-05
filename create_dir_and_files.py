@@ -37,11 +37,11 @@ def rnd_file_create(current_dir, arr_ending, ip_addr, port, user_name, password)
         # upload created file to ftp
         if "t" or "d" in end_file:
             work_ftp_path = '/'
-            upload_file_to_ftp(f'{ip_addr}', f'{port}', f'{user_name}', f'{password}', f'{work_ftp_path}', f'{full_filename}')
+            upload_file_to_ftp.upload_ftp(f'{ip_addr}', f'{port}', f'{user_name}', f'{password}', f'{work_ftp_path}', f'{full_filename}')
         elif "os" in end_file:
             work_ftp_path = '/os_zip'
-            upload_file_to_ftp(f'{ip_addr}', f'{port}', f'{user_name}', f'{password}', f'{work_ftp_path}', f'{full_filename}')
+            upload_file_to_ftp.upload_ftp(f'{ip_addr}', f'{port}', f'{user_name}', f'{password}', f'{work_ftp_path}', f'{full_filename}')
         elif "zip" in end_file:
             work_ftp_path = '/zip'
-            upload_file_to_ftp(f'{ip_addr}', f'{port}', f'{user_name}', f'{password}', f'{work_ftp_path}', f'{full_filename}')
+            upload_file_to_ftp.upload_ftp(f'{ip_addr}', f'{port}', f'{user_name}', f'{password}', f'{work_ftp_path}', f'{full_filename}')
     return filename

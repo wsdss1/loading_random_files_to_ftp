@@ -11,12 +11,12 @@ import os, logging, logging.config, time, shutil, random, uuid, sys, pyodbc, dat
 from ftplib import FTP
 
 HOST = "192.168.10.13"
-PS = "12345"
+PS = "!234Qwer"
 PORT = 21
 UNAME = "ftpuser"
 
 
-ftp = FTP('192.168.10.13', 'ftpuser', '12345')
+ftp = FTP('192.168.10.13', 'ftpuser', '!234Qwer')
 
 SQL_SERVER_CONNECT = "Driver={SQL Server Native Client 11.0};Server=192.168.10.24;Database=SSNTI;Trusted_Connection=no;uid=test;pwd=Password12!"
 
